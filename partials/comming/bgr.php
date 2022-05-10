@@ -1,0 +1,1 @@
+<img class="bgr-comming" src="<?php echo THEME_ASSETS . '/comming/background.png'; ?>">

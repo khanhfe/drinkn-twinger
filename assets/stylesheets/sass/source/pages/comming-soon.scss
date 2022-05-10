@@ -1,0 +1,159 @@
+.comming_soon {
+    padding-top: 107px;
+    .bgr-comming {
+        z-index: 0;
+        position: absolute;
+        width: 100%;
+        top: 107px;
+        pointer-events: none;
+    }
+    .section_1 {
+        position: relative;
+        .js-banner {
+            ._content-banner {
+                padding-top: 10.5%;
+                padding-bottom: 9.3%;
+
+                @media (max-width: 1280px) {
+                    padding-top: 0;
+                    padding-bottom: 8%;
+                }
+
+                @media (max-width: 480px) {
+                    padding-left: 0;
+                }
+                .sub-title {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 28px;
+                    font-family: "BaiJamjuree-Bold";
+
+                    position: relative;
+
+                    text-align: center;
+                    text-transform: uppercase;
+
+                    color: #ffffff;
+                    @media (max-width: 1280px) {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                    @media (max-width: 480px) {
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+                ._title {
+                    padding-bottom: 16px;
+                    text-align: center;
+                    padding-top: 24px;
+
+                    text-transform: uppercase;
+
+                    @media (min-width: 1440px) {
+                        font-size: 80px;
+                        line-height: 72px;
+                    }
+                    @media (max-width: 1280px) {
+                        padding-top: 12px;
+                        padding-bottom: 5px;
+                    }
+                    @media (max-width: 480px) {
+                        padding-top: 0;
+                        line-height: 44px;
+                    }
+                }
+
+                ._text {
+                    position: relative;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    /* identical to box height */
+
+                    text-align: center;
+                    text-transform: uppercase;
+
+                    color: #ffffff;
+                    padding: 14px 0 24px;
+
+                    @media (max-width: 1280px) {
+                        padding: 12px 0 10px;
+                    }
+
+                    @media (max-width: 480px) {
+                        display: flex;
+
+                        font-size: 15px;
+                        line-height: 22px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    ul {
+                        width: 85%;
+                        li {
+                            display: flex;
+                            padding-bottom: 10px;
+                            p {
+                                @media (max-width: 480px) {
+                                    width: 50%;
+                                }
+                                &:first-child {
+                                    width: 146px;
+                                    @media (max-width: 480px) {
+                                        width: 50%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ._button {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+    .section_2 {
+        position: relative;
+        padding-bottom: 110px;
+
+        @media (max-width: 768px) {
+            padding-bottom: 60px;
+        }
+
+        ._box-wrapp {
+            justify-content: space-between;
+            align-items: center;
+            ._left {
+                width: calc(50% - 30px);
+
+                @media (max-width: 768px) {
+                    width: calc(50% - 15px);
+                }
+
+                @media (max-width: 480px) {
+                    width: 100%;
+                    padding-bottom: 30px;
+                }
+            }
+            ._right {
+                width: calc(50% - 30px);
+
+                @media (max-width: 768px) {
+                    width: calc(50% - 15px);
+                }
+
+                @media (max-width: 480px) {
+                    width: 100%;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+}

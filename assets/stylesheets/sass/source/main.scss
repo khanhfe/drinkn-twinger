@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains fonts, helpers, stylesheets default
+// -----------------------------------------------------------------------------
+
+@charset "UTF-8";
+
+@import "abstracts/_variables";
+@import "abstracts/_mixins";
+
+@import "pages/color";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/home";
+@import "pages/home2";
+@import "base/common";
+@import "animation";
+@import "pages/comming-soon.scss";
